@@ -8,7 +8,7 @@
 		"config/**/*",
 		"middleware/**/*",
 		"utils/**/*",
-		".env"
+		".env.local"
 	],
 	"ext": "js,json,env",
 	"ignore": ["node_modules/", "*.test.js"],

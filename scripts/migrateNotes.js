@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Ticket = require("../models/Ticket");
-require("dotenv").config();
+require("dotenv").config({ path: ".env.local" });
 
 const migrateNotes = async () => {
 	try {
