@@ -1,0 +1,20 @@
+{
+	"verbose": true,
+	"watch": [
+		"server.js",
+		"routes/**/*",
+		"controllers/**/*",
+		"models/**/*",
+		"config/**/*",
+		"middleware/**/*",
+		"utils/**/*",
+		".env"
+	],
+	"ext": "js,json,env",
+	"ignore": ["node_modules/", "*.test.js"],
+	"exec": "node server.js",
+	"env": {
+		"NODE_ENV": "development"
+	},
+	"delay": "500"
+} 
